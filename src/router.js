@@ -4,6 +4,7 @@ import Meta from 'vue-meta'
 
 import Home from './components/Home'
 import Acolhimento from './components/Acolhimento'
+import Avaliacao from './components/Avaliacao'
 
 Vue.use(Router)
 Vue.use(Meta)
@@ -22,11 +23,20 @@ export default new Router({
 	},
 	{
 		path: '/acolhimento',
-		name: 'home',
+		name: 'acolhimento',
 		component: Acolhimento,
 		meta: {
 			auth: false,
 			title: 'Acolhimento'
+		}
+	},
+	{
+		path: '/avaliacao',
+		name: 'avaliacao',
+		component: Avaliacao,
+		meta: {
+			auth: false,
+			title: 'Avaliação'
 		}
 	}]
 })

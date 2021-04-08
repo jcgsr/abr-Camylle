@@ -1,62 +1,69 @@
 <template>
-	<div class="header">
-		<b-navbar toggleable="lg" type="dark">
+  <div class="header">
+    <b-navbar id="nav" toggleable="lg" type="dark">
+      <b-navbar-brand>
+        <router-link to="/">
+          <img :src="require('../assets/signature.jpeg')" />
+        </router-link>
+      </b-navbar-brand>
 
-			<b-navbar-brand >
-				<router-link to="/home">
-					<img :src="require('../assets/signature.jpeg')" />
-				</router-link>
-			</b-navbar-brand>
+      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
-			<b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-			<b-collapse id="nav-collapse" is-nav>     
-
-				<b-navbar-nav class="m-auto">
-					<router-link to="/acolhimento">
-						Acolhimento
-					</router-link>
-
-					<b-nav-item-dropdown text="Lang" right>
-						<b-dropdown-item href="#">EN</b-dropdown-item>
-						<b-dropdown-item href="#">ES</b-dropdown-item>
-						<b-dropdown-item href="#">RU</b-dropdown-item>
-						<b-dropdown-item href="#">FA</b-dropdown-item>
-					</b-nav-item-dropdown>
-
-					<b-nav-item-dropdown right>
-						<!-- Using 'button-content' slot -->
-						<template #button-content>
-							<em>User</em>
-						</template>
-						<b-dropdown-item href="#">Profile</b-dropdown-item>
-						<b-dropdown-item href="#">Sign Out</b-dropdown-item>
-					</b-nav-item-dropdown>
-				</b-navbar-nav>
-			</b-collapse>
-		</b-navbar>
-	</div>
+      <b-collapse id="nav-collapse" is-nav>
+        <b-navbar-nav class="m-auto">
+          <b-button variant="light">
+            <router-link to="/acolhimento">ACOLHIMENTO</router-link>
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/avaliacao">AVALIAÇÃO</router-link>
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/intervencao"
+              >INTERVENÇÃO ABA INTENSIVA</router-link
+            >
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/intervencao">TREINAMENTO PARENTAL</router-link>
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/intervencao">SUPERVISÃO PROFISSIONAL</router-link>
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/intervencao">CURSOS</router-link>
+          </b-button>
+          <b-button variant="light">
+            <router-link to="/intervencao">FALE CONOSCO</router-link>
+          </b-button>
+        </b-navbar-nav>
+      </b-collapse>
+    </b-navbar>
+  </div>
 </template>
 
 <script>
-	export default {
-		name: 'Header', 
-	}
+export default {
+  name: "Header",
+};
 </script>
 
 <style lang="css" scoped>
 img {
-	height:80px;
+  height: 80px;
 }
 /*.bg-info {
     background-color: white !important;
     color: #869bac;
  }*/
- .navbar {
-	position: fixed;
-	width: 100%;
- }
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
 .navbar a {
-color: yellow;
- }
+  color: #869bac;
+  text-decoration: none;
+}
+.navbar-toggler {
+  background-color: #869bac;
+}
 </style>
