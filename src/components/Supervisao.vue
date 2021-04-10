@@ -1,17 +1,14 @@
 <template>
-  <div class="avaliacao">
-    <img :src="require('../assets/clients.jpg')" alt="Camylle" />
+  <div class="supervisao">
+    <img :src="require('../assets/capa2.jpg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "Avaliacao",
+  name: "Supervisão Profissional",
   components: {
-  },
-  data() {
-    return {};
-  },
+  }
 };
 </script>
 

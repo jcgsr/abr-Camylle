@@ -1,43 +1,57 @@
 <template>
-  <div class="header">
-    <b-navbar id="nav" toggleable="lg" type="dark">
-      <b-navbar-brand>
-        <router-link to="/">
-          <img :src="require('../assets/signature.jpeg')" />
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+        <router-link to="/" class="navbar-brand">
+          <img id="sign" :src="require('../assets/signature.jpeg')" />
         </router-link>
-      </b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-
-      <b-collapse id="nav-collapse" is-nav>
-        <b-navbar-nav class="m-auto">
-          <b-button variant="light">
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar top-bar"></span>
+<span class="icon-bar middle-bar"></span>
+<span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
             <router-link to="/acolhimento">ACOLHIMENTO</router-link>
-          </b-button>
-          <b-button variant="light">
+          </button>
+          </li>
+          <li class="nav-item">
+          <button type="button" class="btn btn-light">
             <router-link to="/avaliacao">AVALIAÇÃO</router-link>
-          </b-button>
-          <b-button variant="light">
-            <router-link to="/intervencao"
-              >INTERVENÇÃO ABA INTENSIVA</router-link
-            >
-          </b-button>
-          <b-button variant="light">
-            <router-link to="/intervencao">TREINAMENTO PARENTAL</router-link>
-          </b-button>
-          <b-button variant="light">
-            <router-link to="/intervencao">SUPERVISÃO PROFISSIONAL</router-link>
-          </b-button>
-          <b-button variant="light">
-            <router-link to="/intervencao">CURSOS</router-link>
-          </b-button>
-          <b-button variant="light">
-            <router-link to="/intervencao">FALE CONOSCO</router-link>
-          </b-button>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar>
-  </div>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
+            <router-link to="/intervencao">INTERVENÇÃO ABA INTENSIVA</router-link>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
+            <router-link to="/treinamento">TREINAMENTO PARENTAL</router-link>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
+            <router-link to="/supervisao">SUPERVISÃO PROFISSIONAL</router-link>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
+            <router-link to="/cursos">CURSOS</router-link>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-light">
+            <router-link to="/fale">FALE CONOSCO</router-link>
+          </button>
+        </li>
+       </ul>
+     </div>
+     </div>
+    </nav>
 </template>
 
 <script>
@@ -46,20 +60,16 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
-img {
-  height: 80px;
+<style lang="css">
+img#sign {
+  height: 8rem;
 }
-/*.bg-info {
-    background-color: white !important;
-    color: #869bac;
- }*/
 .navbar {
   position: fixed;
   width: 100%;
   background-color: white;
 }
-.navbar a {
+.navbar li a {
   color: #869bac;
   text-decoration: none;
 }

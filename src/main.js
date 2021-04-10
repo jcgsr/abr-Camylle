@@ -1,27 +1,23 @@
-import Vue from 'vue'
-import App from './App.vue'
-import Meta from 'vue-meta'
-import router from './router'
+import Vue from "vue";
+import App from "./App.vue";
+import Meta from "vue-meta";
+import router from "./router";
 
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import "jquery";
+import "popper.js";
+import "bootstrap";
+import "bootstrap/dist/css/bootstrap.css";
 
-import 'bootstrap/dist/css/bootstrap.css'
-import 'bootstrap-vue/dist/bootstrap-vue.css'
+import "animate.css";
 
-Vue.use(BootstrapVue)
-Vue.use(IconsPlugin)
+Vue.use(Meta);
 
-import 'animate.css'
+Vue.config.productionTip = false;
 
-Vue.use(Meta)
-
-
-Vue.config.productionTip = false
-
-import VueRouter from 'vue-router'
-Vue.use(VueRouter)
+import VueRouter from "vue-router";
+Vue.use(VueRouter);
 
 new Vue({
-	router,
-  render: h => h(App),
-}).$mount('#app')
+  router,
+  render: (h) => h(App),
+}).$mount("#app");

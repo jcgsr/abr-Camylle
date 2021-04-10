@@ -1,17 +1,13 @@
 <template>
   <div class="acolhimento">
-    <Header />
     <img :src="require('../assets/capa2.jpg')" alt="Camylle" />
-    <h1>Acolhimento</h1>
   </div>
 </template>
 
 <script>
-import Header from "../components/Header";
 export default {
   name: "Acolhimento",
   components: {
-    Header,
   },
   data() {
     return {};
@@ -19,7 +15,7 @@ export default {
 };
 </script>
 
-<style lang="css" scoped>
+<style lang="css">
 h1 {
   text-align: center;
 }

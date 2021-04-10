@@ -1,16 +1,16 @@
 <template>
-  <div>
-    <img :src="require('../assets/capa3.jpg')" alt="Camylle" />
+  <div class="cursos">
+    <img :src="require('../assets/mugs.jpg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-};
+  name: "Cursos",
+ };
 </script>
 
-<style>
+<style lang="css">
 h1 {
   text-align: center;
 }
