@@ -67,7 +67,7 @@ export default {
 html,
 *,
 body {
-  color: #869bac;
+  color: #919da7;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 </style>
