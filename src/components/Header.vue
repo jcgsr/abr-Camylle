@@ -86,9 +86,7 @@ img#sign {
   color: #869bac;
   text-decoration: none;
 }
-.navbar-toggler {
-  background-color: #869bac;
-}
+
 .contents {
   display: flex;
   align-items: center;
