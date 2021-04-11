@@ -86,7 +86,7 @@ ul li {
 @media screen and (max-width: 456px) {
   img#sign {
     width: 250px;
-    height: 180px;
+    height: 100px;
   }
 }
 </style>
