@@ -71,7 +71,7 @@ img#sign {
   height: 8rem;
 }
 .navbar {
-  position: fixed;
+  position: static;
   width: 100%;
   background-color: rgba(252, 254, 255, 255);
 }
