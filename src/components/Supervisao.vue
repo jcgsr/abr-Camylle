@@ -1,14 +1,13 @@
 <template>
   <div class="supervisao">
-    <img :src="require('../assets/working.jpg')" alt="Camylle" />
+    <img class="mt-4" :src="require('../assets/working.jpg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Supervisão Profissional",
-  components: {
-  }
+  components: {},
 };
 </script>
 

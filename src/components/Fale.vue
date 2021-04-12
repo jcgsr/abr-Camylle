@@ -1,13 +1,13 @@
 <template>
   <div class="fale">
-    <img :src="require('../assets/oi.jpeg')" alt="Camylle" />
+    <img class="mt-4" :src="require('../assets/oi.jpeg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Fale",
- };
+};
 </script>
 
 <style lang="css">

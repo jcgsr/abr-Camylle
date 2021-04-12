@@ -1,14 +1,13 @@
 <template>
   <div class="intervencao">
-    <img :src="require('../assets/capa4.jpg')" alt="Camylle" />
+    <img class="mt-4" :src="require('../assets/capa4.jpg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Intervencao",
-  components: {
-  },
+  components: {},
   data() {
     return {};
   },

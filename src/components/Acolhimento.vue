@@ -1,14 +1,13 @@
 <template>
   <div class="acolhimento">
-    <img :src="require('../assets/capa2.jpg')" alt="Camylle" />
+    <img class="mt-4" :src="require('../assets/capa2.jpg')" alt="Camylle" />
   </div>
 </template>
 
 <script>
 export default {
   name: "Acolhimento",
-  components: {
-  },
+  components: {},
   data() {
     return {};
   },
