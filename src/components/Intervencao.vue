@@ -1,6 +1,6 @@
 <template>
   <div class="intervencao">
-    <img class="mt-4" :src="require('../assets/capa4.jpg')" alt="Camylle" />
+    <img :src="require('../assets/capa4.jpg')" alt="Camylle" />
   </div>
 </template>
 
