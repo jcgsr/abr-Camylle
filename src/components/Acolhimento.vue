@@ -74,9 +74,9 @@ h1 {
   .card {
     width: 90%;
   }
-  .card-img {
+  /* .card-img {
     width: 200px;
     height: 400px;
-  }
+  } */
 }
 </style>
