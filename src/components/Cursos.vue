@@ -1,6 +1,20 @@
 <template>
   <div class="cursos">
-    <img :src="require('../assets/mugs.jpg')" alt="Camylle" />
+    <div class="card mt-2 mb-2 shadow">
+      <img :src="require('../assets/capa3.jpg')" alt="Camylle" />
+      <div class="card-body">
+        <h5 class="card-title">CURSOS</h5>
+        <div class="card-text">
+          <p>
+            <ul type="square">
+              <li>Formação em AT.</li>
+              <li>Do estágio ao consultório.</li>
+              <li>Do consultório à clínica.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -13,8 +27,5 @@ export default {
 <style lang="css">
 h1 {
   text-align: center;
-}
-img {
-  width: 100%;
 }
 </style>

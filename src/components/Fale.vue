@@ -1,6 +1,14 @@
 <template>
   <div class="fale">
-    <img :src="require('../assets/oi.jpeg')" alt="Camylle" />
+    <div class="card mt-2 mb-2 shadow">
+      <img :src="require('../assets/capa1.jpg')" alt="Camylle" />
+      <div class="card-body">
+        <h5 class="card-title">FALE CONOSCO</h5>
+        <div class="card-text">
+          <p></p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
