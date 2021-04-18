@@ -69,7 +69,9 @@ h1 {
   width: 60%;
   margin: 0 auto;
 }
-
+.card p {
+  max-width: 65ch;
+}
 @media screen and (max-width: 456px) {
   .card {
     width: 90%;

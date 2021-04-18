@@ -64,10 +64,11 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap");
 html,
 *,
 body {
   color: #919da7;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Bitter", Georgia, Times, "Times New Roman", serif;
 }
 </style>
