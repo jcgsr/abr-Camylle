@@ -4,8 +4,11 @@
         <a class="animate__animated animate__tada" :href="linkInsta"
             ><i class="fab fa-instagram"></i></a>
         <a class="animate__animated animate__tada" :href="linkFB"
-        ><i class="fab fa-facebook-f mr-4"></i></a
+        ><i class="fab fa-facebook-f"></i></a
       >
+        <a class="animate__animated animate__tada" :href="linkYoutube">
+          <i class="fab fa-youtube"></i>
+        </a>
 
     </div> <br><br>
   <hr class="mb-4">
@@ -25,8 +28,11 @@ export default {
       return {
          footer: '2021 - Camylle Azevedo',
          footer2: "Psicóloga Infantil",
-         linkFB: "https://www.facebook.com/clara.azevedo.52687506",
-         linkInsta: "https://www.instagram.com/pilatescomclara/"
+         linkFB: "https://www.facebook.com/manuela.queiroz.79274089",
+        linkInsta:
+        "https://instagram.com/camylleazevedopsi?igshid=1w3m8n6nmvosk",
+        linkYoutube: "https://youtube.com/channel/UC7NjOFKua9sCRyo_2Auvk8Q"
+
       }
    }
 }
