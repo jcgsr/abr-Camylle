@@ -22,6 +22,11 @@
             <router-link to="/acolhimento">ACOLHIMENTO</router-link>
           </button>
         </li>
+        <li class="nav-item active">
+          <button type="button" class="btn btn-light">
+            <router-link to="/psicoterapia">PSICOTERAPIA</router-link>
+          </button>
+        </li>
         <li class="nav-item">
           <button type="button" class="btn btn-light">
             <router-link to="/avaliacao">AVALIAÇÃO</router-link>

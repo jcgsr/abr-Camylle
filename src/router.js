@@ -4,6 +4,7 @@ import Meta from "vue-meta";
 
 import Home from "./components/Home";
 import Acolhimento from "./components/Acolhimento";
+import Psicoterapia from "./components/Psicoterapia";
 import Avaliacao from "./components/Avaliacao";
 import Intervencao from "./components/Intervencao";
 import Treinamento from "./components/Treinamento";
@@ -34,6 +35,15 @@ export default new Router({
       meta: {
         auth: false,
         title: "Acolhimento",
+      },
+    },
+    {
+      path: "/psicoterapia",
+      name: "psicoterapia",
+      component: Psicoterapia,
+      meta: {
+        auth: false,
+        title: "Psicoterpia",
       },
     },
     {
