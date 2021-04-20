@@ -76,6 +76,9 @@ h1 {
   .card {
     width: 90%;
   }
+  .card p {
+    max-width: 85ch;
+  }
   /* .card-img {
     width: 200px;
     height: 400px;
