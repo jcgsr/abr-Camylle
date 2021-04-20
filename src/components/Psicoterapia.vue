@@ -51,11 +51,4 @@ export default {
 h1 {
   text-align: center;
 }
-.card {
-  width: 60%;
-  margin: 0 auto;
-}
-.card p {
-  max-width: 65ch;
-}
 </style>
