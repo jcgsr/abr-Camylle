@@ -1,7 +1,7 @@
 <template>
   <div class="intervencao">
     <div class="card mt-2 mb-2 shadow">
-      <img :src="require('../assets/capa4.jpg')" alt="Camylle" />
+      <img :src="require('../assets/sprite.jpg')" alt="Camylle" />
       <div class="card-body">
         <h5 class="card-title">INTERVENÇÃO ABA INTENSIVA</h5>
         <div class="card-text">
