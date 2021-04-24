@@ -74,6 +74,7 @@ export default {
 <style lang="css">
 img#sign {
   height: 8rem;
+  width: 16rem;
 }
 .navbar {
   position: static;
