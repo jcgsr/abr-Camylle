@@ -65,13 +65,17 @@ export default {
 h1 {
   text-align: center;
 }
+.card-title {
+  font-size: 1.4rem;
+}
 .card {
   width: 60%;
   margin: 0 auto;
 }
-/* .card p {
+.card p {
   max-width: 65ch;
-} */
+  font-size: 1.1rem;
+}
 @media screen and (max-width: 456px) {
   .card {
     width: 90%;
