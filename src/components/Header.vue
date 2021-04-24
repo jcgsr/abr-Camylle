@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <router-link to="/" class="navbar-brand">
-      <img id="sign" :src="require('../assets/signature_blank.jpg')" />
+      <img id="sign" :src="require('../assets/signature1remove.png')" />
     </router-link>
     <button
       class="navbar-toggler"
