@@ -1,6 +1,6 @@
 <template>
   <div class="acolhimento">
-    <div class="card mt-2 mb-2 shadow">
+    <div class="card mb-2 shadow">
       <img
         class="card-img"
         :src="require('../assets/acolhimento.jpeg')"
@@ -70,7 +70,7 @@ h1 {
 }
 .card {
   width: 60%;
-  margin: 0 auto;
+  margin: 10rem auto;
 }
 .card p {
   max-width: 65ch;

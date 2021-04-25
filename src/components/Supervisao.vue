@@ -1,6 +1,6 @@
 <template>
   <div class="supervisao">
-    <div class="card mt-2 mb-2 shadow">
+    <div class="card mb-2 shadow">
       <img :src="require('../assets/capa4.jpg')" alt="Camylle" />
       <div class="card-body">
         <h5 class="card-title">SUPERVISÃO PROFISSIONAL</h5>

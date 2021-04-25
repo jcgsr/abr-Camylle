@@ -1,6 +1,6 @@
 <template>
   <div class="psico">
-    <div class="card mt-2 mb-2 shadow">
+    <div class="card mb-2 shadow">
       <img
         class="card-img"
         :src="require('../assets/convite.jpeg')"

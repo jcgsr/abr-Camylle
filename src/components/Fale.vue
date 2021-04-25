@@ -1,6 +1,6 @@
 <template>
   <div class="fale">
-    <div class="card mt-2 mb-2 shadow">
+    <div class="card mb-2 shadow">
       <img :src="require('../assets/fale_conosco.jpeg')" alt="Camylle" />
       <div class="card-body">
         <h5 class="card-title">FALE CONOSCO</h5>

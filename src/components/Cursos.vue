@@ -1,6 +1,6 @@
 <template>
   <div class="cursos">
-    <div class="card mt-2 mb-2 shadow">
+    <div class="card mb-2 shadow">
       <img :src="require('../assets/cursos.jpeg')" alt="Camylle" />
       <div class="card-body">
         <h5 class="card-title">CURSOS</h5>
