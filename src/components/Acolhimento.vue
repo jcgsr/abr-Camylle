@@ -70,7 +70,7 @@ h1 {
 }
 .card {
   width: 60%;
-  margin: 10rem auto;
+  margin: 1rem auto;
 }
 .card p {
   max-width: 65ch;
@@ -79,7 +79,6 @@ h1 {
 @media screen and (max-width: 456px) {
   .card {
     width: 90%;
-    margin: 3rem auto;
   }
 }
 </style>
