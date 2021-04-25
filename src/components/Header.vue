@@ -13,8 +13,8 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span v-show="burgerShow" class="navbar-toggler-icon"></span>
-      <div>
+      <div id="tog">
+        <span v-show="burgerShow" class="navbar-toggler-icon"></span>
         <i v-show="xShow" class="fas fa-times close-icon"></i>
       </div>
     </button>
@@ -86,6 +86,10 @@ img#sign {
   height: 8rem;
   width: 16rem;
 }
+#tog {
+  width: 30px;
+  height: 30px;
+}
 .navbar {
   position: static;
   width: 100%;
@@ -101,7 +105,7 @@ ul li {
 }
 .close-icon {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
 @media screen and (max-width: 456px) {
