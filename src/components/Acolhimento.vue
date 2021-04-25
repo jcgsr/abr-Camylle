@@ -79,12 +79,7 @@ h1 {
 @media screen and (max-width: 456px) {
   .card {
     width: 90%;
-    margin: 8rem auto;
+    margin: 6rem auto;
   }
-
-  /* .card-img {
-    width: 200px;
-    height: 400px;
-  } */
 }
 </style>
