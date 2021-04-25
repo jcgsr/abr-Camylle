@@ -1,12 +1,11 @@
 <template>
   <div class="zap">
     <button type="button" class="btn btn-success">
-   <a class="animate__animated animate__tada" :href="linkWhatsapp"
-        ><i class="fab fa-whatsapp"></i></a
-      >
-
+      <a class="animate__animated animate__tada" :href="linkWhatsapp"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
     </button>
-     </div>
+  </div>
 </template>
 
 <script>
@@ -14,14 +13,14 @@ export default {
   name: "Whatsapp",
   data() {
     return {
-       linkWhatsapp:
-      "https://api.whatsapp.com/send?phone=557999824006&text=Olá! Gostaria de mais informações sobre o atendimento da Drª Camylle Azevedo",
-    }
-  }
-}
+      linkWhatsapp:
+        "https://api.whatsapp.com/send?phone=557999824006&text=Olá! Gostaria de mais informações sobre o atendimento da Drª Camylle Azevedo",
+    };
+  },
+};
 </script>
 
-<style>
+<style scoped>
 .zap {
   padding: 1rem;
   font-weight: bolder;
