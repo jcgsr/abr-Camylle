@@ -91,12 +91,8 @@ img#sign {
   height: 30px;
 }
 .navbar {
-  position: static;
   width: 100%;
   background-color: rgba(252, 254, 255, 255);
-}
-.navbar-fixed-top {
-  position: fixed !important;
 }
 .navbar li a {
   color: #869bac;
