@@ -4,7 +4,8 @@
       <img id="sign" :src="require('../assets/signature1remove.png')" />
     </router-link>
     <button
-      class="navbar-toggler"
+      @click="(xShow = !xShow), (burgerShow = !burgerShow)"
+      class="navbar-toggler trigger"
       type="button"
       data-toggle="collapse"
       data-target="#navbarSupportedContent"
@@ -12,7 +13,10 @@
       aria-expanded="false"
       aria-label="Toggle navigation"
     >
-      <span class="navbar-toggler-icon"></span>
+      <span v-show="burgerShow" class="navbar-toggler-icon"></span>
+      <div>
+        <i v-show="xShow" class="fas fa-times close-icon"></i>
+      </div>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -68,6 +72,12 @@
 <script>
 export default {
   name: "Header",
+  data() {
+    return {
+      xShow: false,
+      burgerShow: true,
+    };
+  },
 };
 </script>
 
@@ -89,6 +99,11 @@ img#sign {
 ul li {
   text-align: left;
 }
+.close-icon {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 2.2rem;
+}
+
 @media screen and (max-width: 456px) {
   img#sign {
     width: 250px;
