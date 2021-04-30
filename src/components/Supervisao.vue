@@ -22,7 +22,7 @@
 
 <script>
 export default {
-  name: "Supervisão Profissional",
+  name: "SupervisaoProfissional",
   components: {},
 };
 </script>
