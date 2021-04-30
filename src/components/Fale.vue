@@ -1,7 +1,7 @@
 <template>
   <div class="fale">
     <div class="card mb-2 shadow">
-      <img :src="require('../assets/fale_conosco.jpeg')" alt="Camylle" />
+      <img :src="require('../assets/fale.jpg')" alt="Camylle" />
       <div class="card-body">
         <h5 class="card-title">FALE CONOSCO</h5>
         <div class="card-text">

@@ -3,7 +3,7 @@
     <div class="card mb-2 shadow">
       <img
         class="card-img"
-        :src="require('../assets/acolhimento.jpeg')"
+        :src="require('../assets/acolhimento.jpg')"
         alt="Camylle"
       />
       <div class="card-body">

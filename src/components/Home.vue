@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img :src="require('../assets/capa3.jpg')" alt="Camylle" />
+    <img :src="require('../assets/capa.jpg')" alt="Camylle" />
   </div>
 </template>
 
