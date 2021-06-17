@@ -13,19 +13,19 @@
 <style>
 .home {
 	width: 100%;
-	margin-top: 7rem;
+	margin-top:7rem;
 }
 h1 {
 	text-align: center;
 }
 img{
-	/*width: 100%;
-	background-size: cover;*/
+	width: 100%;
+
 }
-/*
-@media screen and (max-width: 456px) {
+
+/*@media screen and (max-width: 456px) {
 	img {
-		height: 80vh;
+		height: 40vh;
 	}
 }*/
 </style>

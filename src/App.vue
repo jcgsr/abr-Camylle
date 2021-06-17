@@ -31,6 +31,11 @@ export default {
   metaInfo() {
     return {
       meta: [
+        {
+          name: "description",
+          content:
+            "Camylle Azevedo é psicóloga infantil na cidade de Aracaju-SE.",
+        },
         // Twitter Card
         { name: "twitter:card", content: "Camylle Azevedo" },
         {
@@ -57,6 +62,7 @@ export default {
           property: "og:description",
           content: "Site de Camylle Azevedo",
         },
+        { name: "robots", content: "index, follow" },
       ],
     };
   },
